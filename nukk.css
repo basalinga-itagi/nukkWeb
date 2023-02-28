@@ -86,7 +86,7 @@
   padding-right: 20px;
 }
 
-.nav-section a:first-child {
+.nav-section a[id] {
   color: #e47312;
 }
 
@@ -868,6 +868,12 @@ h4 {
   margin-right: 30px;
   /* background-color: #e47312; */
   background-image: linear-gradient(158deg, #e47312, #ff6361);
+}
+
+.date-container {
+  width: 20px;
+  height: 40px;
+  background-color: red;
 }
 
 .blog-description {
